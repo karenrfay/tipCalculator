@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SettingsViewController.h
 //  tipCalculator
 //
 //  Created by Karen Fay on 9/5/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SettingsViewController : UIViewController <UIPickerViewDataSource,UIPickerViewDelegate>
 
 @end
-
